@@ -5,12 +5,16 @@ public class AbstractArm {
     private String countryOfOrigin;
     private int countOnTheBase;
     private int numberOfPersonsInEquipage;
+    private int garrisonCount;
+    private int garrisonSallaryInDollars;
 
     public AbstractArm(String serialNumber, String countryOfOrigin, int countOnTheBase, int numberOfPersonsInEquipage) {
         this.serialNumber = serialNumber;
         this.countryOfOrigin = countryOfOrigin;
         this.countOnTheBase = countOnTheBase;
         this.numberOfPersonsInEquipage = numberOfPersonsInEquipage;
+        this.garrisonCount = numberOfPersonsInEquipage * countOnTheBase;
+        this.garrisonSallaryInDollars = this.garrisonCount * 2000;
     }
 
     public String getSerialNumber() {
@@ -43,5 +47,13 @@ public class AbstractArm {
 
     public void setNumberOfPersonsInEquipage(int numberOfPersonsInEquipage) {
         this.numberOfPersonsInEquipage = numberOfPersonsInEquipage;
+    }
+
+    public int getGarrisonCount() {
+        return garrisonCount;
+    }
+
+    public int getGarrisonSallaryInDollars() {
+        return garrisonSallaryInDollars;
     }
 }
