@@ -69,4 +69,12 @@ public class Vehicle extends AbstractArm{
     public void ride(){
         System.out.println("Wuuuuuuuuuuuuu!");
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "engine" + "," + "maxFieldVelocityInKmh" + "," + "fuelSpendPerFieldKmInLitres" + "," + "model" + "," + "maxAsphaltVelocityinKmh" + "," + "fuelTankCapacityInLitres");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + engine.toString() + "," + maxFieldVelocityInKmh + "," + fuelSpendPerFieldKmInLitres + "," + model + "," + maxAsphaltVelocityinKmh + "," + fuelTankCapacityInLitres);
+    }
 }

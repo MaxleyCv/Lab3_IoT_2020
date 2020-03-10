@@ -2,11 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b7cf986-d71c-4724-81a9-199441ebd243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AirRadar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AirRadar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AutoTurningArms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AutoTurningArms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Binocle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Binocle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ElectronicSpyEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ElectronicSpyEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Gun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Gun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/InfantryGuns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/InfantryGuns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MLRS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MLRS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MachineGun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MachineGun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Mortar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Mortar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/OpticalSpyEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/OpticalSpyEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/PolarCoordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/PolarCoordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Riffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Riffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/RocketMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/RocketMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/TransportationTruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/TransportationTruck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MilitaryBaseManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/SortingType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/AbstractArm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/AirRadar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Armour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/ArmourCharachter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/ArmouredVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/AutoTurningArms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Binocle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/ElectronicSpyEquipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/FireArm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Gun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/InfantryGuns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/MLRS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/MachineGun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Mortar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/OpticalSpyEquipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/PolarCoordinate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Riffle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/RocketMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/SpyEquipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/SpyGlass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Termovisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/TransportationTruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Vehicle.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,102 +71,102 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/OpticalSpyEquipment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="442">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Riffle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MLRS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/site/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/SortingType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmourCharachter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="306">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/PolarCoordinate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1634#1635#0" expanded="true" />
-                <element signature="e#1685#1686#0" expanded="true" />
-                <element signature="e#1732#1733#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/RocketMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="459">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Tank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -124,8 +174,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/TransportationTruck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="309" selection-start-line="5" selection-start-column="309" selection-end-line="5" selection-end-column="309" />
+            <state relative-caret-position="357">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,31 +239,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/PolarCoordinate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmourCharachter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Armour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Size.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/OpticalSpyEquipment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Binocle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ElectronicSpyEquipment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AirRadar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/InfantryGuns.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MachineGun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Riffle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Mortar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AutoTurningArms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Gun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MLRS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/TransportationTruck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Tank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/RocketMachine.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/SortingType.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseTransportationManagerCase.java" />
@@ -188,9 +251,32 @@
         <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseMillitaryManagerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/OpticalSpyEquipment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Binocle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ElectronicSpyEquipment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AirRadar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Size.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/InfantryGuns.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Riffle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MachineGun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Mortar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AutoTurningArms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Gun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Engine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MLRS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/PolarCoordinate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/RocketMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Tank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/TransportationTruck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java" />
       </list>
     </option>
   </component>
@@ -213,7 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -302,10 +387,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582546782694" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583881718918" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -448,7 +534,36 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.23200513" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.23843187" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50067294" side_tool="true" weight="0.25899744" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" sideWeight="0.4993573" weight="0.32974428" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49871466" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012854" side_tool="true" weight="0.30417228" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.23843187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,169 +590,12 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/App.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AutoTurningArms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Binocle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ElectronicSpyEquipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Gun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="309" lean-forward="true" selection-start-line="5" selection-start-column="309" selection-end-line="5" selection-end-column="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/InfantryGuns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MachineGun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MLRS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Mortar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/OpticalSpyEquipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/PolarCoordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Riffle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/RocketMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Size.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Armour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -646,23 +604,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/lecture/SomeTestClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AirRadar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Tank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/SomeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseMillitaryManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,37 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmourCharachter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/TransportationTruck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="309" selection-start-line="5" selection-start-column="309" selection-end-line="5" selection-end-column="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -724,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
@@ -734,29 +644,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding>
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/SortingType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
+        <state relative-caret-position="68">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -764,12 +654,315 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/SortingType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmourCharachter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="1309">
+          <caret line="80" column="71" selection-start-line="80" selection-start-column="71" selection-end-line="80" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Binocle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ElectronicSpyEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AirRadar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/InfantryGuns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MachineGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Mortar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AutoTurningArms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Gun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/OpticalSpyEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Riffle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MLRS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/PolarCoordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/RocketMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/TransportationTruck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
           </folding>
         </state>
       </provider>

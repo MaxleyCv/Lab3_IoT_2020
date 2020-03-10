@@ -17,6 +17,17 @@ public class AbstractArm {
         this.garrisonSallaryInDollars = this.garrisonCount * 2000;
     }
 
+
+    public String getHeaders(){
+        return "serialNumber,countryOfOrigin,countOnTheBase,numberOfPersonsInEquipage,garrisonCount,garrisonSallaryInDollars";
+    }
+
+    public String toCSV(){
+        return (this.serialNumber + "," + this.countryOfOrigin  + "," + this.countOnTheBase  + "," + this.numberOfPersonsInEquipage + "," + this.garrisonCount + "," + this.garrisonSallaryInDollars);
+    }
+
+
+
     public String getSerialNumber() {
         return serialNumber;
     }

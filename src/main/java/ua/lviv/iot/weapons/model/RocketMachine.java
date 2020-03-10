@@ -26,4 +26,12 @@ public class RocketMachine extends ArmouredVehicle {
     public void setSetupTimeInSeconds(double setupTimeInSeconds) {
         this.setupTimeInSeconds = setupTimeInSeconds;
     }
+
+    public String getHeaders(){
+        return super.getHeaders();
+    }
+
+    public String toCSV(){
+        return super.toCSV();
+    }
 }
