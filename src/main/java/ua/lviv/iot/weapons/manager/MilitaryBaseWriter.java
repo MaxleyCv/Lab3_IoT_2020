@@ -9,19 +9,17 @@ import java.io.Writer;
 import java.util.List;
 
 public abstract class MilitaryBaseWriter {
-    public static void writeToCSVFile(List<AbstractArm> abstractArmList) throws IOException {
-
+    public static void writeToCSVFile(List<AbstractArm> abstractArmList) {
         File outputCSVFile = new File("AbstractArmList.csv");
-        Writer fileWriter = new FileWriter(outputCSVFile);
-
-        StringBuilder csvInfoBuilder = new StringBuilder();
-
-        for (AbstractArm arm : abstractArmList){
-            csvInfoBuilder.append(arm.getHeaders() + "\r\n" + arm.toCSV() + "\r\n");
+        try(Writer fileWriter = new FileWriter(outputCSVFile)) {
+            StringBuilder csvInfoBuilder = new StringBuilder();
+            for (AbstractArm arm : abstractArmList) {
+                csvInfoBuilder.append(arm.getHeaders() + "\r\n" + arm.toCSV() + "\r\n");
+            }
+            fileWriter.write(csvInfoBuilder.toString());
+            fileWriter.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-        fileWriter.write(csvInfoBuilder.toString());
-
-        fileWriter.close();
     }
 }
