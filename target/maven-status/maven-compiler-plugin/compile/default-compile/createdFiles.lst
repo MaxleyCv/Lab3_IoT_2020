@@ -5,6 +5,7 @@ ua\lviv\iot\weapons\model\ArmouredVehicle.class
 ua\lviv\iot\weapons\model\PolarCoordinate.class
 ua\lviv\iot\weapons\manager\MillitaryBaseManagerUtils$EquipmentSorterByCount.class
 ua\lviv\iot\weapons\model\Gun.class
+ua\lviv\iot\weapons\manager\MilitaryBaseReader.class
 ua\lviv\iot\weapons\model\Riffle.class
 ua\lviv\iot\weapons\model\OpticalSpyEquipment.class
 ua\lviv\iot\weapons\manager\MillitaryBaseManagerUtils$1.class

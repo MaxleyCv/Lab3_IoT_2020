@@ -25,9 +25,9 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
-      <title>File: 30,
+      <title>File: 31,
              Errors: 0,
-             Warnings: 892,
+             Warnings: 906,
              Infos: 0
       </title>
             <link>http://maven.apache.org/checkstyle.html</link>
@@ -375,6 +375,20 @@ under the License.
                 </td>
                 <td>
                   0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.manager.MilitaryBaseReader.java">ua/lviv/iot/weapons/manager/MilitaryBaseReader.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
                 </td>
                 <td>
                   0
