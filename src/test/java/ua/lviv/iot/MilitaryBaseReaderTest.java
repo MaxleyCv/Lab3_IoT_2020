@@ -9,6 +9,7 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.fail;
 
 public class MilitaryBaseReaderTest {
+    
     @Test
     public void readerTest(){
         File csvInputFile = new File("AbstractArmList.csv");

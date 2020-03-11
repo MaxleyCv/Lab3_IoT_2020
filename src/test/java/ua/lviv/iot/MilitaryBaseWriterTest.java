@@ -11,12 +11,9 @@ public class MilitaryBaseWriterTest extends BaseMillitaryManagerTest{
 
     @Test
     void writeToFileTest(){
-        try {
+
             writeToCSVFile(weapons);
-        } catch (IOException e) {
-            e.printStackTrace();
-            fail("Got an IOException");
-        }
+
     }
 
 }
