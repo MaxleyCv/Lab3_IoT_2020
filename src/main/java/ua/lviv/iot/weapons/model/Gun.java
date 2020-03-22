@@ -15,4 +15,12 @@ public class Gun extends AutoTurningArms {
     public void setLengthOfMuzzleInMeters(double lengthOfMuzzleInMeters) {
         this.lengthOfMuzzleInMeters = lengthOfMuzzleInMeters;
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "lengthOfMuzzleInMeters");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + lengthOfMuzzleInMeters);
+    }
 }

@@ -32,4 +32,12 @@ public class Termovisor extends ElectronicSpyEquipment {
     public List<PolarCoordinate> getSurroundingWarmObjects(){
         return new LinkedList<PolarCoordinate>();
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "minTemperatureInDegreesCelcius" + "," + "maxTemperatureInDegreesCelcius");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + minTemperatureInDegreesCelcius + "," + maxTemperatureInDegreesCelcius);
+    }
 }

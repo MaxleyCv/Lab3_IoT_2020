@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b7cf986-d71c-4724-81a9-199441ebd243" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MilitaryBaseWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MilitaryBaseWriterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MilitaryBaseWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MilitaryBaseWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cpd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pmd/rulesets/maven-pmd-plugin-default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cpd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/maven-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/collapsed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/expanded.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/external.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/newwindow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/rss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/pmd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/spotbugs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spotbugsXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.lviv.iot.MilitaryBaseReaderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.lviv.iot.MilitaryBaseWriterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.lviv.iot.MillitaryManagerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.lviv.iot.MillitaryManagerUtilsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ua.lviv.iot.MilitaryBaseReaderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ua.lviv.iot.MilitaryBaseWriterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ua.lviv.iot.MillitaryManagerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ua.lviv.iot.MillitaryManagerUtilsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/MilitaryBaseWriterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/MillitaryManagerUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work-1.0-SNAPSHOT.jar" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="work" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MilitaryBaseReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Armour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MilitaryBaseWriterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractArmList.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseMillitaryManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>find</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmourCharachter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/SortingType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseTransportationManagerCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/lecture/SomeTestClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseTransportationManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/TransportationManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/OpticalSpyEquipment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Binocle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ElectronicSpyEquipment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AirRadar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Size.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/InfantryGuns.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Riffle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MachineGun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Mortar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AutoTurningArms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Gun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Engine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MLRS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/PolarCoordinate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/RocketMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Tank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/TransportationTruck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Armour.java" />
+        <option value="$PROJECT_DIR$/AbstractArmList.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseMillitaryManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseWriter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MilitaryBaseWriterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MilitaryBaseReaderTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weapons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weapons" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weapons" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583925129467" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MillitaryManagerUtilsTest.sortAllEquipmentByNumberOfPersonsInEquipageTest">
+    <configuration name="BaseMillitaryManagerTest.findEquipmentByRangeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.BaseMillitaryManagerTest" />
+      <option name="METHOD_NAME" value="findEquipmentByRangeTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MillitaryManagerTest.findEquipmentByRangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.MillitaryManagerTest" />
+      <option name="METHOD_NAME" value="findEquipmentByRangeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MillitaryManagerUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.MillitaryManagerUtilsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MillitaryManagerUtilsTest.sortAllEquipmentByCountOnTheBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.MillitaryManagerUtilsTest" />
+      <option name="METHOD_NAME" value="sortAllEquipmentByCountOnTheBaseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MillitaryManagerUtilsTest.sortAllEquipmentByNumberOfPersonsInEquipageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.MillitaryManagerUtilsTest" />
+      <option name="METHOD_NAME" value="sortAllEquipmentByNumberOfPersonsInEquipageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MillitaryManagerUtilsTest.sortAllEquipmentByNumberOfPersonsInEquipageTest" />
+        <item itemvalue="JUnit.MillitaryManagerUtilsTest.sortAllEquipmentByCountOnTheBaseTest" />
+        <item itemvalue="JUnit.MillitaryManagerUtilsTest" />
+        <item itemvalue="JUnit.MillitaryManagerTest.findEquipmentByRangeTest" />
+        <item itemvalue="JUnit.BaseMillitaryManagerTest.findEquipmentByRangeTest2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b7cf986-d71c-4724-81a9-199441ebd243" name="Default Changelist" comment="" />
+      <created>1581370127447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581370127447</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BaseMillitaryManagerTest_findEquipmentByRangeTest2 - 2020.02.17 at 12h 08m 22s.xml">
+      <configuration name="BaseMillitaryManagerTest.findEquipmentByRangeTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MillitaryManagerTest_findEquipmentByRangeTest - 2020.02.17 at 12h 09m 46s.xml">
+      <configuration name="MillitaryManagerTest.findEquipmentByRangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MillitaryManagerUtilsTest_sortAllEquipmentByCountOnTheBaseTest - 2020.02.17 at 12h 52m 36s.xml">
+      <configuration name="MillitaryManagerUtilsTest.sortAllEquipmentByCountOnTheBaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MillitaryManagerUtilsTest - 2020.02.17 at 12h 53m 06s.xml">
+      <configuration name="MillitaryManagerUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MillitaryManagerUtilsTest_sortAllEquipmentByNumberOfPersonsInEquipageTest - 2020.02.17 at 12h 54m 11s.xml">
+      <configuration name="MillitaryManagerUtilsTest.sortAllEquipmentByNumberOfPersonsInEquipageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MillitaryManagerUtilsTest_sortAllEquipmentByCountOnTheBaseTest - 2020.02.17 at 12h 54m 19s.xml">
+      <configuration name="MillitaryManagerUtilsTest.sortAllEquipmentByCountOnTheBaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MillitaryManagerUtilsTest_sortAllEquipmentByNumberOfPersonsInEquipageTest - 2020.02.17 at 13h 26m 33s.xml">
+      <configuration name="MillitaryManagerUtilsTest.sortAllEquipmentByNumberOfPersonsInEquipageTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.2114396" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50067294" side_tool="true" weight="0.25899744" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" sideWeight="0.4993573" weight="0.32974428" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49871466" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012854" side_tool="true" weight="0.30417228" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.23843187" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50067294" side_tool="true" weight="0.25899744" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" sideWeight="0.4993573" weight="0.32974428" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49871466" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012854" side_tool="true" visible="true" weight="0.30417228" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/lecture/SomeTestClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/SomeTest.java" />
+    <entry file="file://$PROJECT_DIR$/target/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/SortingType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmourCharachter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="80" column="71" selection-start-line="80" selection-start-column="71" selection-end-line="80" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Binocle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ElectronicSpyEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AirRadar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/InfantryGuns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MachineGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Mortar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AutoTurningArms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Gun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/OpticalSpyEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Riffle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/MLRS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/PolarCoordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/RocketMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/TransportationTruck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Armour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractArmList.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseMillitaryManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MilitaryBaseWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/MilitaryBaseReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -15,4 +15,12 @@ public class SpyGlass extends OpticalSpyEquipment{
     public void setTubeDiameterInCentimeters(double tubeDiameterInCentimeters) {
         this.tubeDiameterInCentimeters = tubeDiameterInCentimeters;
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "tubeDiameterInCentimeters");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + tubeDiameterInCentimeters);
+    }
 }

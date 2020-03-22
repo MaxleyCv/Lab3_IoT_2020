@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>work - Checkstyle report</title>
+    <link>http://maven.apache.org</link>
+    <description>work - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2020</copyright>
+    <item>
+      <title>File: 31,
+             Errors: 0,
+             Warnings: 909,
+             Infos: 0
+      </title>
+            <link>http://maven.apache.org/checkstyle.html</link>
+      <description>
+        <p>Click <a href="http://maven.apache.org/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.MLRS.java">ua/lviv/iot/weapons/model/MLRS.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Riffle.java">ua/lviv/iot/weapons/model/Riffle.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Gun.java">ua/lviv/iot/weapons/model/Gun.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.manager.SortingType.java">ua/lviv/iot/weapons/manager/SortingType.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.AbstractArm.java">ua/lviv/iot/weapons/model/AbstractArm.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  57
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.AutoTurningArms.java">ua/lviv/iot/weapons/model/AutoTurningArms.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  40
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.AirRadar.java">ua/lviv/iot/weapons/model/AirRadar.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Termovisor.java">ua/lviv/iot/weapons/model/Termovisor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  37
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.SpyGlass.java">ua/lviv/iot/weapons/model/SpyGlass.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  23
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Size.java">ua/lviv/iot/weapons/model/Size.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  34
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.ElectronicSpyEquipment.java">ua/lviv/iot/weapons/model/ElectronicSpyEquipment.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  33
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.OpticalSpyEquipment.java">ua/lviv/iot/weapons/model/OpticalSpyEquipment.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Binocle.java">ua/lviv/iot/weapons/model/Binocle.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.SpyEquipment.java">ua/lviv/iot/weapons/model/SpyEquipment.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  32
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Mortar.java">ua/lviv/iot/weapons/model/Mortar.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.InfantryGuns.java">ua/lviv/iot/weapons/model/InfantryGuns.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.manager.MilitaryBaseManager.java">ua/lviv/iot/weapons/manager/MilitaryBaseManager.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.PolarCoordinate.java">ua/lviv/iot/weapons/model/PolarCoordinate.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  24
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Tank.java">ua/lviv/iot/weapons/model/Tank.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  32
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.TransportationTruck.java">ua/lviv/iot/weapons/model/TransportationTruck.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.FireArm.java">ua/lviv/iot/weapons/model/FireArm.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  60
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.manager.MillitaryBaseManagerUtils.java">ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  67
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Armour.java">ua/lviv/iot/weapons/model/Armour.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  28
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.ArmourCharachter.java">ua/lviv/iot/weapons/model/ArmourCharachter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.manager.MilitaryBaseReader.java">ua/lviv/iot/weapons/manager/MilitaryBaseReader.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Engine.java">ua/lviv/iot/weapons/model/Engine.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  34
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.ArmouredVehicle.java">ua/lviv/iot/weapons/model/ArmouredVehicle.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  35
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.MachineGun.java">ua/lviv/iot/weapons/model/MachineGun.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.manager.MilitaryBaseWriter.java">ua/lviv/iot/weapons/manager/MilitaryBaseWriter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  23
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.RocketMachine.java">ua/lviv/iot/weapons/model/RocketMachine.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  31
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.weapons.model.Vehicle.java">ua/lviv/iot/weapons/model/Vehicle.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  69
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

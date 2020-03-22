@@ -9,4 +9,12 @@ public class MLRS extends AutoTurningArms {
     public void setUnderfireTerritory(PolarCoordinate coordinate){
         System.out.println("Underfire territory is now (" + coordinate.getAngleToNormalInRadians() + ", " + coordinate.getDistanceToTargetInMeters() + ")");
     }
+
+    public String getHeaders(){
+        return super.getHeaders();
+    }
+
+    public String toCSV(){
+        return super.toCSV();
+    }
 }
