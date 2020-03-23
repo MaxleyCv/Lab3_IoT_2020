@@ -59,4 +59,12 @@ public class FireArm extends AbstractArm {
     public void shoot(){
         System.out.println("BABAX");
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "calibre" + "," + "maxCartridgeCapacity" + "," + "minimumVolleyTimeInSeconds" + "," + "massInKg" + "," + "reloadingTimeInSeconds");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + calibre + "," + maxCartridgeCapacity + "," + minimumVolleyTimeInSeconds + "," + massInKg + "," + reloadingTimeInSeconds);
+    }
 }

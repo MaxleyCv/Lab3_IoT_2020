@@ -16,4 +16,12 @@ public class TransportationTruck extends Vehicle {
     public void setCapacityInSeats(int capacityInSeats) {
         this.capacityInSeats = capacityInSeats;
     }
+
+    public String getHeaders(){
+        return super.getHeaders();
+    }
+
+    public String toCSV(){
+        return super.toCSV();
+    }
 }

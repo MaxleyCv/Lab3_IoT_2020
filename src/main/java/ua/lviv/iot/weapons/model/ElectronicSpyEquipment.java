@@ -25,4 +25,11 @@ public class ElectronicSpyEquipment extends SpyEquipment {
     public void setScreenDiagonalInInches(double screenDiagonalInInches) {
         this.screenDiagonalInInches = screenDiagonalInInches;
     }
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "batteryCapacityInHours" + "," + "screenDiagonalInInches");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + batteryCapacityInHours + "," + screenDiagonalInInches);
+    }
 }

@@ -19,4 +19,12 @@ public class OpticalSpyEquipment extends SpyEquipment {
     public void scale(double scaleSwitchPositionInPercent){
         System.out.println("Scaling in " + scaleSwitchPositionInPercent + " times");
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "glassType");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + glassType);
+    }
 }

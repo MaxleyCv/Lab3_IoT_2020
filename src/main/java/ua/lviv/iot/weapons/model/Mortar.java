@@ -15,4 +15,12 @@ public class Mortar extends InfantryGuns {
     public void setTypeOfMines(String typeOfMines) {
         this.typeOfMines = typeOfMines;
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "typeOfMines");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + typeOfMines);
+    }
 }
