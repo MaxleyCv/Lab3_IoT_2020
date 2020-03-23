@@ -1,0 +1,6 @@
+#Mon Mar 23 14:59:09 EET 2020
+configuration*?=C89BD268E40AC7AB118A348BEA9569AF00E6C0D
+module-resource*?\:checkstyle-xpath-suppressions.xml=410C7F870F1392A255DE760E4CEE2521E01014D8
+module-resource*?\:checkstyle-suppressions.xml=37C0B97A0AD57E08DD890C170A250F37850481B6
+/home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/model/ArmourCharachter.java=1584908516800
+/home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/manager/SortingType.java=1584908516800
