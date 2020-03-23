@@ -7,6 +7,7 @@ public class AbstractArm {
     private int numberOfPersonsInEquipage;
     private int garrisonCount;
     private int garrisonSallaryInDollars;
+    private int weaponID;
 
     public AbstractArm(String serialNumber, String countryOfOrigin, int countOnTheBase, int numberOfPersonsInEquipage) {
         this.serialNumber = serialNumber;
@@ -66,5 +67,13 @@ public class AbstractArm {
 
     public int getGarrisonSallaryInDollars() {
         return garrisonSallaryInDollars;
+    }
+
+    public int getWeaponID() {
+        return weaponID;
+    }
+
+    public void setWeaponID(int weaponID) {
+        this.weaponID = weaponID;
     }
 }
