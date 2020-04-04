@@ -15,4 +15,14 @@ public class Binocle extends OpticalSpyEquipment {
     public void setLensNumber(int lensNumber) {
         this.lensNumber = lensNumber;
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "lensNumber");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + lensNumber);
+    }
 }
+
+

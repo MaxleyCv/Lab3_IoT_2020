@@ -22,4 +22,12 @@ public class AirRadar extends ElectronicSpyEquipment {
     public List<PolarCoordinate> returnListOfSurroundingPlanes(){
         return new LinkedList<PolarCoordinate>();
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "wevelengthInMillimeter");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + wavelengthInMillimeter);
+    }
 }

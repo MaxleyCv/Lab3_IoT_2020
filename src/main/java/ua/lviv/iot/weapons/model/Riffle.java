@@ -8,4 +8,12 @@ public class Riffle extends InfantryGuns{
     public void hangOnShoulder(){
         System.out.println("The soldier is riffled!");
     }
+
+    public String getHeaders(){
+        return super.getHeaders();
+    }
+
+    public String toCSV(){
+        return super.toCSV();
+    }
 }

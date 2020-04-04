@@ -28,5 +28,13 @@ public class AutoTurningArms extends FireArm{
         this.currentTurnAngleInRadians += angleInRadians;
         System.out.println("Current turn angle is: " + currentTurnAngleInRadians);
     }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "maxTurningSpeedInRadiansPerSecond");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + maxTurningSpeedInRadiansPerSecond);
+    }
 }
 

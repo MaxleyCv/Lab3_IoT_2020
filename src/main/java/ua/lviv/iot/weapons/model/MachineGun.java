@@ -8,4 +8,12 @@ public class MachineGun extends InfantryGuns {
     public void setOnField(){
         System.out.println("Your machine gun is placed on the field");
     }
+
+    public String getHeaders(){
+        return super.getHeaders();
+    }
+
+    public String toCSV(){
+        return super.toCSV();
+    }
 }

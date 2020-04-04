@@ -34,4 +34,13 @@ public class Engine {
     public void setFuelSpendPerWattInLitres(double fuelSpendPerWattInLitres) {
         this.fuelSpendPerWattInLitres = fuelSpendPerWattInLitres;
     }
+
+    @Override
+    public String toString() {
+        return "Engine{" +
+                "model='" + model + '\'' +
+                ", gasCameraVolumeInLitres=" + gasCameraVolumeInLitres +
+                ", fuelSpendPerWattInLitres=" + fuelSpendPerWattInLitres +
+                '}';
+    }
 }
