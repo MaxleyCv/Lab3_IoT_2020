@@ -4,7 +4,9 @@
 /home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/model/ArmouredVehicle.java
 /home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/model/Termovisor.java
 /home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/model/Tank.java
+/home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/business/MilitaryBaseService.java
 /home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/model/SpyGlass.java
+/home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/dataaccess/MilitaryBaseRepository.java
 /home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java
 /home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/model/Mortar.java
 /home/maxley/java-iot-projects/Lab3_IoT_2020/src/main/java/ua/lviv/iot/weapons/model/Armour.java

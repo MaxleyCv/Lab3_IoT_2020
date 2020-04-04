@@ -1,12 +1,17 @@
 package ua.lviv.iot.weapons.controller;
 
 
+import org.hibernate.annotations.GeneratorType;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import ua.lviv.iot.weapons.business.MilitaryBaseService;
 import ua.lviv.iot.weapons.model.AbstractArm;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -23,36 +28,40 @@ public class MilitaryBaseController {
     private Map<Integer, AbstractArm> listOfWeapons = new HashMap<>();
     private AtomicInteger equipmentCount = new AtomicInteger();
 
+    @Autowired
+    private MilitaryBaseService service;
+
 
     @GetMapping
     public List<AbstractArm> getMilitaryList(){
-        return new LinkedList<>(listOfWeapons.values());
+        return service.getAllArms();
     }
 
     @PostMapping (produces = MediaType.APPLICATION_JSON_VALUE)
     public AbstractArm generateWeapon(@RequestBody AbstractArm arm){
-        arm.setWeaponID(generateKey());
-        listOfWeapons.put(arm.getWeaponID(), arm);
-        return arm;
+        return service.createArm(arm);
     }
 
     @DeleteMapping (path = "/{id}")
     public ResponseEntity<AbstractArm> deleteArmByID(@PathVariable Integer id){
-        HttpStatus status = (listOfWeapons.remove(id) == null) ? HttpStatus.NOT_FOUND : HttpStatus.OK;
+        HttpStatus status = (service.getAnArm(id) == null) ? HttpStatus.NOT_FOUND : HttpStatus.OK;
+        if (status.equals(HttpStatus.OK)) service.deleteArm(id);
         return ResponseEntity.status(status).build();
     }
 
     @GetMapping (path = "/{id}")
     public AbstractArm getArmByID(@PathVariable Integer id){
-        return listOfWeapons.get(id);
+        AbstractArm gotArm;
+        gotArm = (AbstractArm) service.getAnArm(id);
+        return gotArm;
     }
 
     @PutMapping (path = "/{id}")
     public ResponseEntity<AbstractArm> updateArm(final @PathVariable Integer id, final @RequestBody AbstractArm arm){
-        HttpStatus status = (listOfWeapons.get(id) == null) ? HttpStatus.NOT_FOUND : HttpStatus.OK;
+        HttpStatus status = (service.getAnArm(id) == null) ? HttpStatus.NOT_FOUND : HttpStatus.OK;
         arm.setWeaponID(id);
         if (status.equals(HttpStatus.OK)){
-            listOfWeapons.put(id, arm);
+            service.changeArm(arm, id);
         }
         return ResponseEntity.status(status).build();
     }

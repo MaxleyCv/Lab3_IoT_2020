@@ -1,5 +1,11 @@
 package ua.lviv.iot.weapons.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class AbstractArm {
     private String serialNumber;
     private String countryOfOrigin;
@@ -7,6 +13,9 @@ public class AbstractArm {
     private int numberOfPersonsInEquipage;
     private int garrisonCount;
     private int garrisonSallaryInDollars;
+
+    @Id
+    @GeneratedValue (strategy = GenerationType.AUTO)
     private int weaponID;
 
     public AbstractArm(String serialNumber, String countryOfOrigin, int countOnTheBase, int numberOfPersonsInEquipage) {
@@ -16,6 +25,9 @@ public class AbstractArm {
         this.numberOfPersonsInEquipage = numberOfPersonsInEquipage;
         this.garrisonCount = numberOfPersonsInEquipage * countOnTheBase;
         this.garrisonSallaryInDollars = this.garrisonCount * 2000;
+    }
+
+    public AbstractArm() {
     }
 
 
@@ -73,7 +85,8 @@ public class AbstractArm {
         return weaponID;
     }
 
-    public void setWeaponID(int weaponID) {
+    public AbstractArm setWeaponID(int weaponID) {
         this.weaponID = weaponID;
+        return this;
     }
 }

@@ -5,10 +5,12 @@ ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$EquipmentSorterByEquipage.
 ua/lviv/iot/weapons/model/Engine.class
 ua/lviv/iot/weapons/model/SpyGlass.class
 ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$EquipmentSorterByCount.class
+ua/lviv/iot/weapons/dataaccess/MilitaryBaseRepository.class
 ua/lviv/iot/weapons/model/AirRadar.class
 ua/lviv/iot/weapons/model/ElectronicSpyEquipment.class
 ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.class
 ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$1.class
+ua/lviv/iot/weapons/business/MilitaryBaseService.class
 ua/lviv/iot/weapons/model/Gun.class
 ua/lviv/iot/weapons/manager/MilitaryBaseManager.class
 ua/lviv/iot/weapons/model/MLRS.class
