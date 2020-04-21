@@ -1,9 +1,9 @@
 package ua.lviv.iot.weapons.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class AbstractArm {
@@ -13,6 +13,30 @@ public class AbstractArm {
     private int numberOfPersonsInEquipage;
     private int garrisonCount;
     private int garrisonSallaryInDollars;
+
+    @ManyToMany(mappedBy = "usedArms")
+    private Set<Division> divisions;
+
+    @ManyToOne (fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "lager_id")
+    @JsonIgnoreProperties("arms")
+    private Lager lager;
+
+    public Set<Division> getDivisions() {
+        return divisions;
+    }
+
+    public void setDivisions(Set<Division> divisions) {
+        this.divisions = divisions;
+    }
+
+    public Lager getLager() {
+        return lager;
+    }
+
+    public void setLager(Lager lager) {
+        this.lager = lager;
+    }
 
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)
@@ -29,7 +53,6 @@ public class AbstractArm {
 
     public AbstractArm() {
     }
-
 
     public String getHeaders(){
         return "serialNumber,countryOfOrigin,countOnTheBase,numberOfPersonsInEquipage,garrisonCount,garrisonSallaryInDollars";
