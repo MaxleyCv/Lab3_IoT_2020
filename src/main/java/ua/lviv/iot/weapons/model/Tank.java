@@ -26,4 +26,12 @@ public class Tank extends ArmouredVehicle{
     public void setNumberOfEntries(int numberOfEntries) {
         this.numberOfEntries = numberOfEntries;
     }
+
+    public String getHeaders(){
+        return super.getHeaders();
+    }
+
+    public String toCSV(){
+        return super.toCSV();
+    }
 }

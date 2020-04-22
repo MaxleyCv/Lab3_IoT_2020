@@ -1,6 +1,6 @@
 package ua.lviv.iot.weapons.model;
 
-public class Vehicle extends AbstractArm{
+public class Vehicle extends Arm {
     private Engine engine;
     private double maxFieldVelocityInKmh;
     private String model;
@@ -68,5 +68,13 @@ public class Vehicle extends AbstractArm{
 
     public void ride(){
         System.out.println("Wuuuuuuuuuuuuu!");
+    }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "engine" + "," + "maxFieldVelocityInKmh" + "," + "fuelSpendPerFieldKmInLitres" + "," + "model" + "," + "maxAsphaltVelocityinKmh" + "," + "fuelTankCapacityInLitres");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + engine.toString() + "," + maxFieldVelocityInKmh + "," + fuelSpendPerFieldKmInLitres + "," + model + "," + maxAsphaltVelocityinKmh + "," + fuelTankCapacityInLitres);
     }
 }

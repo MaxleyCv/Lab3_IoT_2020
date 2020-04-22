@@ -34,4 +34,13 @@ public class Size {
     public void setHeight(double height) {
         this.height = height;
     }
+
+    @Override
+    public String toString() {
+        return "Size{" +
+                "length=" + length +
+                ", width=" + width +
+                ", height=" + height +
+                '}';
+    }
 }

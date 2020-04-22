@@ -1,6 +1,6 @@
 package ua.lviv.iot.weapons.model;
 
-public class FireArm extends AbstractArm {
+public class FireArm extends Arm {
     private double calibre;
     private int maxCartridgeCapacity;
     private double minimumVolleyTimeInSeconds;
@@ -58,5 +58,13 @@ public class FireArm extends AbstractArm {
 
     public void shoot(){
         System.out.println("BABAX");
+    }
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "calibre" + "," + "maxCartridgeCapacity" + "," + "minimumVolleyTimeInSeconds" + "," + "massInKg" + "," + "reloadingTimeInSeconds");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + calibre + "," + maxCartridgeCapacity + "," + minimumVolleyTimeInSeconds + "," + massInKg + "," + reloadingTimeInSeconds);
     }
 }

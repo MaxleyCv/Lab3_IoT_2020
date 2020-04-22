@@ -1,8 +1,17 @@
 package ua.lviv.iot.weapons.model;
 
-public class SpyEquipment extends AbstractArm {
+public class SpyEquipment extends Arm {
     private double maximumDetectionDistanceInMeters;
     private Size sizeInCentimiters;
+
+    public String getHeaders(){
+        return (super.getHeaders() + "," + "maximumDetectionDistanceInMeters" + "," + "sizeInCentimiters");
+    }
+
+    public String toCSV(){
+        return (super.toCSV() + "," + maximumDetectionDistanceInMeters + "," + sizeInCentimiters.toString());
+    }
+
 
     public SpyEquipment(String serialNumber, String countryOfOrigin, int countOnTheBase, int numberOfPersonsInEquipage, double maximumDetectionDistanceInMeters, Size sizeInCentimiters) {
         super(serialNumber, countryOfOrigin, countOnTheBase, numberOfPersonsInEquipage);

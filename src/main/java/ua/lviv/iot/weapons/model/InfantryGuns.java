@@ -8,4 +8,12 @@ public class InfantryGuns extends FireArm {
     public void reload(int cartridgeNumber){
         System.out.println("Loading the cartridge...");
     }
+
+    public String getHeaders(){
+        return super.getHeaders();
+    }
+
+    public String toCSV(){
+        return super.toCSV();
+    }
 }

@@ -26,4 +26,12 @@ public class ArmouredVehicle extends Vehicle {
             System.out.println("Vehicle destroyed");
         }
     }
+
+    public String getHeaders(){
+        return super.getHeaders();
+    }
+
+    public String toCSV(){
+        return super.toCSV();
+    }
 }

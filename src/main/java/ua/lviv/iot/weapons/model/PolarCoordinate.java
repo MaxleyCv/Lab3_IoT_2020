@@ -24,4 +24,12 @@ public class PolarCoordinate {
     public void setAngleToNormalInRadians(double angleToNormalInRadians) {
         this.angleToNormalInRadians = angleToNormalInRadians;
     }
+
+    @Override
+    public String toString() {
+        return "PolarCoordinate{" +
+                "distanceToTargetInMeters=" + distanceToTargetInMeters +
+                ", angleToNormalInRadians=" + angleToNormalInRadians +
+                '}';
+    }
 }
