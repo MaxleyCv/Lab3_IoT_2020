@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-public class AbstractArm {
+public class Arm {
     private String serialNumber;
     private String countryOfOrigin;
     private int countOnTheBase;
@@ -17,7 +17,7 @@ public class AbstractArm {
     @ManyToMany(mappedBy = "usedArms")
     private Set<Division> divisions;
 
-    @ManyToOne (fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @ManyToOne (fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
     @JoinColumn(name = "lager_id")
     @JsonIgnoreProperties("arms")
     private Lager lager;
@@ -42,7 +42,7 @@ public class AbstractArm {
     @GeneratedValue (strategy = GenerationType.AUTO)
     private int weaponID;
 
-    public AbstractArm(String serialNumber, String countryOfOrigin, int countOnTheBase, int numberOfPersonsInEquipage) {
+    public Arm(String serialNumber, String countryOfOrigin, int countOnTheBase, int numberOfPersonsInEquipage) {
         this.serialNumber = serialNumber;
         this.countryOfOrigin = countryOfOrigin;
         this.countOnTheBase = countOnTheBase;
@@ -51,7 +51,7 @@ public class AbstractArm {
         this.garrisonSallaryInDollars = this.garrisonCount * 2000;
     }
 
-    public AbstractArm() {
+    public Arm() {
     }
 
     public String getHeaders(){
@@ -108,7 +108,7 @@ public class AbstractArm {
         return weaponID;
     }
 
-    public AbstractArm setWeaponID(int weaponID) {
+    public Arm setWeaponID(int weaponID) {
         this.weaponID = weaponID;
         return this;
     }

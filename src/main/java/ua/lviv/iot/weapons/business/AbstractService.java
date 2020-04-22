@@ -23,7 +23,6 @@ public abstract class AbstractService<T> {
 
     public boolean updateInstance(T newInstance, Integer id){
         if (getRepository().existsById(id)){
-            BeanUtils.copyProperties(getRepository().findById(id).get(), newInstance);
             getRepository().save(newInstance);
             return true;
         }

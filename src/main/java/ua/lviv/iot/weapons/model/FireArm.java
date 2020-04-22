@@ -1,6 +1,6 @@
 package ua.lviv.iot.weapons.model;
 
-public class FireArm extends AbstractArm {
+public class FireArm extends Arm {
     private double calibre;
     private int maxCartridgeCapacity;
     private double minimumVolleyTimeInSeconds;

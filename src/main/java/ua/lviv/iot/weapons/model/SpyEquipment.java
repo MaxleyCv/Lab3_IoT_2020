@@ -1,6 +1,6 @@
 package ua.lviv.iot.weapons.model;
 
-public class SpyEquipment extends AbstractArm {
+public class SpyEquipment extends Arm {
     private double maximumDetectionDistanceInMeters;
     private Size sizeInCentimiters;
 

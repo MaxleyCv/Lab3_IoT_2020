@@ -15,9 +15,9 @@ public class Lager {
     @GeneratedValue (strategy = GenerationType.AUTO)
     private int lagerId;
 
-    @OneToMany (mappedBy = "lager", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @OneToMany (mappedBy = "lager", fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
     @JsonIgnoreProperties("lager")
-    private Set<AbstractArm> arms;
+    private Set<Arm> arms;
 
     public String getLocation() {
         return location;
@@ -35,11 +35,11 @@ public class Lager {
         this.lagerId = lagerId;
     }
 
-    public Set<AbstractArm> getArms() {
+    public Set<Arm> getArms() {
         return arms;
     }
 
-    public void setArms(Set<AbstractArm> arms) {
+    public void setArms(Set<Arm> arms) {
         this.arms = arms;
     }
 }

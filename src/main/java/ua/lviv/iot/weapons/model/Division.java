@@ -23,7 +23,7 @@ public class Division {
             @JoinColumn (name = "weapon_id", nullable = false)
     })
     @JsonIgnoreProperties("divisions")
-    private Set<AbstractArm> usedArms;
+    private Set<Arm> usedArms;
 
     public Integer getDivisionId() {
         return divisionId;
@@ -41,11 +41,11 @@ public class Division {
         this.name = name;
     }
 
-    public Set<AbstractArm> getUsedArms() {
+    public Set<Arm> getUsedArms() {
         return usedArms;
     }
 
-    public void setUsedArms(Set<AbstractArm> usedArms) {
+    public void setUsedArms(Set<Arm> usedArms) {
         this.usedArms = usedArms;
     }
 }

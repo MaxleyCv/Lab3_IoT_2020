@@ -1,6 +1,6 @@
 package ua.lviv.iot.weapons.manager;
 
-import ua.lviv.iot.weapons.model.AbstractArm;
+import ua.lviv.iot.weapons.model.Arm;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -9,11 +9,11 @@ import java.io.Writer;
 import java.util.List;
 
 public abstract class MilitaryBaseWriter {
-    public static void writeToCSVFile(List<AbstractArm> abstractArmList) {
+    public static void writeToCSVFile(List<Arm> armList) {
         File outputCSVFile = new File("AbstractArmList.csv");
         try(Writer fileWriter = new FileWriter(outputCSVFile)) {
             StringBuilder csvInfoBuilder = new StringBuilder();
-            for (AbstractArm arm : abstractArmList) {
+            for (Arm arm : armList) {
                 csvInfoBuilder.append(arm.getHeaders() + "\r\n" + arm.toCSV() + "\r\n");
             }
             fileWriter.write(csvInfoBuilder.toString());

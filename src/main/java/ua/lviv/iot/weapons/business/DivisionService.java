@@ -1,6 +1,7 @@
 package ua.lviv.iot.weapons.business;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import ua.lviv.iot.weapons.dataaccess.DivisionRepository;
 import ua.lviv.iot.weapons.dataaccess.LagerRepository;

@@ -20,27 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b7cf986-d71c-4724-81a9-199441ebd243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/AbstractService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/ArmService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/DivisionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/LagerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/controller/ArmController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/controller/DivisionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/controller/LagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/DivisionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/LagerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Lager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/MilitaryBaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/controller/MilitaryBaseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/MilitaryBaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/ArmRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/business/MilitaryBaseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/controller/MilitaryBaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/dataaccess/MilitaryBaseRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/AbstractArm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/AbstractArm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/AbstractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/ArmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/ArmService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/DivisionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/business/DivisionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/controller/ArmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/controller/ArmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/ArmRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/ArmRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/DivisionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/DivisionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/LagerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/dataaccess/LagerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MilitaryBaseWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/AbstractArm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Arm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/FireArm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Lager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Lager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/SpyEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/weapons/model/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseMillitaryManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/BaseMillitaryManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/MillitaryManagerUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/business/AbstractService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/business/AbstractService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/business/ArmService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/business/ArmService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/controller/ArmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/controller/ArmController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/dataaccess/ArmRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/dataaccess/ArmRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MilitaryBaseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MilitaryBaseManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MilitaryBaseWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MilitaryBaseWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$EquipmentSorterByCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$EquipmentSorterByCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$EquipmentSorterByEquipage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils$EquipmentSorterByEquipage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/manager/MillitaryBaseManagerUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/AbstractArm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Division.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/FireArm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/FireArm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Lager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Lager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/SpyEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/SpyEquipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/weapons/model/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/BaseMillitaryManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/BaseMillitaryManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/MillitaryManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/MillitaryManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/MillitaryManagerUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/MillitaryManagerUtilsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +94,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583925129467" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SQLWebinarCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -224,6 +242,10 @@
     </state>
     <state x="2319" y="172" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587507717376" />
     <state x="641" y="166" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1584927162484" />
+    <state x="2167" y="158" width="766" height="762" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587546483621">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2167" y="158" width="766" height="762" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587546483621" />
     <state x="569" y="309" width="518" height="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584927451930">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -238,28 +260,28 @@
     <state x="2288" y="239" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587451939247" />
     <state x="616" y="220" width="374" height="392" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1587489494167" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1585205524219" />
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1587507737381">
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1587548133852">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587507737381" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587548133852" />
     <state width="1487" height="370" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1586362983982" />
     <state width="1487" height="284" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1585152427747" />
-    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1587507737381">
+    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1587548133852">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587507737381" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587548133852" />
     <state width="1487" height="370" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1586362983982" />
     <state width="1487" height="284" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1585152427746" />
-    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1587507737381">
+    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1587548133852">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587507737381" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587548133852" />
     <state width="1487" height="370" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1586362983982" />
     <state width="1487" height="284" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1585152427739" />
-    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1587507737381">
+    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1587548133852">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587507737381" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1587548133852" />
     <state width="1487" height="370" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1586362983982" />
     <state width="1487" height="284" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1585152427746" />
     <state x="2303" y="264" key="SettingsEditor" timestamp="1586021422302">

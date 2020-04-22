@@ -1,6 +1,6 @@
 package ua.lviv.iot.weapons.manager;
 
-import ua.lviv.iot.weapons.model.AbstractArm;
+import ua.lviv.iot.weapons.model.Arm;
 
 import java.util.Comparator;
 import java.util.List;
@@ -18,7 +18,7 @@ public class MillitaryBaseManagerUtils {
      * @param sortingType
      * @return
      */
-    public static List<AbstractArm> sortAllEquipmentByNumberOfPersonsInEquipage(List<AbstractArm> listOfEquipment, SortingType sortingType){
+    public static List<Arm> sortAllEquipmentByNumberOfPersonsInEquipage(List<Arm> listOfEquipment, SortingType sortingType){
         listOfEquipment.sort(sortingType == SortingType.ASCEND ? EQUIPMENT_SORTER_BY_EQUIPAGE : EQUIPMENT_SORTER_BY_EQUIPAGE.reversed());
         return listOfEquipment;
     }
@@ -30,7 +30,7 @@ public class MillitaryBaseManagerUtils {
      * @return
      */
 
-    public static List<AbstractArm> sortAllEquipmentByCountOnTheBase(List<AbstractArm> listOfEquipment, SortingType sortingType){
+    public static List<Arm> sortAllEquipmentByCountOnTheBase(List<Arm> listOfEquipment, SortingType sortingType){
         listOfEquipment.sort(sortingType == SortingType.ASCEND ? EQUIPMENT_SORTER_BY_COUNT : EQUIPMENT_SORTER_BY_COUNT.reversed());
         return listOfEquipment;
     }
@@ -41,13 +41,13 @@ public class MillitaryBaseManagerUtils {
      * @param sortingType
      * @return
      */
-    public static List<AbstractArm> sortEquipmentByGarrisonCount(List<AbstractArm> listOfEquipment, SortingType sortingType){
+    public static List<Arm> sortEquipmentByGarrisonCount(List<Arm> listOfEquipment, SortingType sortingType){
 
         int sequenceCoefficient;
         sequenceCoefficient = sortingType == SortingType.ASCEND ? 1 : -1;
 
-        listOfEquipment.sort(new Comparator<AbstractArm>() {
-            public int compare(AbstractArm arm1, AbstractArm arm2) {
+        listOfEquipment.sort(new Comparator<Arm>() {
+            public int compare(Arm arm1, Arm arm2) {
                 return sequenceCoefficient * (arm1.getGarrisonCount() - arm2.getGarrisonCount());
             }
         });
@@ -62,7 +62,7 @@ public class MillitaryBaseManagerUtils {
      * @return
      */
 
-    public static List<AbstractArm> sortEquipmentByMaintainCost(List<AbstractArm> listOfEquipment, SortingType sortingType){
+    public static List<Arm> sortEquipmentByMaintainCost(List<Arm> listOfEquipment, SortingType sortingType){
 
         int sequenceCoefficient;
         sequenceCoefficient = sortingType == SortingType.ASCEND ? 1 : -1;
@@ -74,18 +74,18 @@ public class MillitaryBaseManagerUtils {
         return listOfEquipment;
     }
 
-    private class EquipmentSorterByCount implements Comparator<AbstractArm>{
+    private class EquipmentSorterByCount implements Comparator<Arm>{
 
         @Override
-        public int compare(AbstractArm arm1, AbstractArm arm2) {
+        public int compare(Arm arm1, Arm arm2) {
             return arm1.getCountOnTheBase() - arm2.getCountOnTheBase();
         }
     }
 
-    private static class EquipmentSorterByEquipage implements Comparator<AbstractArm>{
+    private static class EquipmentSorterByEquipage implements Comparator<Arm>{
 
         @Override
-        public int compare(AbstractArm arm1, AbstractArm arm2){
+        public int compare(Arm arm1, Arm arm2){
             return arm1.getNumberOfPersonsInEquipage() - arm2.getNumberOfPersonsInEquipage();
         }
     }
